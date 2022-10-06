@@ -1,0 +1,22 @@
+Github Proyecto
+    https://github.com/hectorflores/evaluacion_w
+Clonar Proyecto 
+    https: https://github.com/hectorflores/evaluacion_w.git
+
+Instalar dependecias
+    composer install
+
+Configurar DB
+    Copiar .env.example a .env
+
+Crear Base de datos
+    default en el .env es "demo_productos"
+
+Configurar llave, migraciones y usuarios de prueba
+    php artisan key:generate
+    php artisan migrate
+    php artisan db:seed
+
+Usuarios de prueba
+    admin@admin.com/abc123 (superadmin)
+    demo@demo.com/abc123 (usuario normal)
